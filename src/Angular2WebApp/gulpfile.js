@@ -15,7 +15,9 @@ var paths = {
     css: webroot + "css/**/*.css",
     minCss: webroot + "css/**/*.min.css",
     concatJsDest: webroot + "js/site.min.js",
-    concatCssDest: webroot + "css/site.min.css"
+    concatCssDest: webroot + "css/site.min.css",
+    npmLibSrc: "./node_modules/",
+    npmLibDest: webroot + "lib/npm"
 };
 
 gulp.task("clean:js", function (cb) {
