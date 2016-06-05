@@ -20,6 +20,11 @@ var paths = {
     npmLibDest: webroot + "lib/npm"
 };
 
+gulp.task("clean:npmlib", function (cb) {
+    rimraf(paths.npmLibDest, cb);
+});
+
+
 gulp.task("clean:js", function (cb) {
     rimraf(paths.concatJsDest, cb);
 });
@@ -28,7 +33,7 @@ gulp.task("clean:css", function (cb) {
     rimraf(paths.concatCssDest, cb);
 });
 
-gulp.task("clean", ["clean:js", "clean:css"]);
+gulp.task("clean", ["clean:js", "clean:css", "clean:npmlib"]);
 
 gulp.task("min:js", function () {
     return gulp.src([paths.js, "!" + paths.minJs], { base: "." })
