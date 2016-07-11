@@ -2,22 +2,6 @@
   "userSecretsId": "aspnet-Angular2WebApp-4e475434-9dff-43e7-8b3f-009105c6238b",
 
   "dependencies": {
-    "Microsoft.AspNetCore.Razor.Tools": {
-      "version": "1.0.0-preview1-final",
-      "type": "build"
-    },
-    "Microsoft.EntityFrameworkCore.Tools": {
-      "version": "1.0.0-preview1-final",
-      "type": "build"
-    },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Tools": {
-      "version": "1.0.0-preview1-final",
-      "type": "build"
-    },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
-      "version": "1.0.0-preview1-final",
-      "type": "build"
-    },
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.0.0",
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
@@ -36,36 +20,16 @@
       "version": "1.0.0",
       "type": "platform"
     },
-    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0"
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
+    "Microsoft.AspNetCore.Razor.Tools": "1.0.0-preview2-final",
+    "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.0.0-preview2-final",
+    "Microsoft.EntityFrameworkCore.Tools": "1.0.0-preview2-final",
+    "Microsoft.Extensions.SecretManager.Tools": "1.0.0-preview2-final",
+    "Microsoft.VisualStudio.Web.CodeGeneration.Tools": "1.0.0-preview2-final",
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "1.0.0-preview2-final"
   },
 
   "tools": {
-    "Microsoft.AspNetCore.Razor.Tools": {
-      "version": "1.0.0-preview1-final",
-      "imports": "portable-net45+win8+dnxcore50"
-    },
-    "Microsoft.AspNetCore.Server.IISIntegration.Tools": {
-      "version": "1.0.0-preview1-final",
-      "imports": "portable-net45+win8+dnxcore50"
-    },
-    "Microsoft.EntityFrameworkCore.Tools": {
-      "version": "1.0.0-preview1-final",
-      "imports": [
-        "portable-net45+win8+dnxcore50",
-        "portable-net45+win8"
-      ]
-    },
-    "Microsoft.Extensions.SecretManager.Tools": {
-      "version": "1.0.0-preview1-final",
-      "imports": "portable-net45+win8+dnxcore50"
-    },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Tools": {
-      "version": "1.0.0-preview1-final",
-      "imports": [
-        "portable-net45+win8+dnxcore50",
-        "portable-net45+win8"
-      ]
-    }
   },
 
   "frameworks": {
