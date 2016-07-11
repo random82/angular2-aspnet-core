@@ -1,0 +1,13 @@
+<body>
+  <script src="/lib/npm/zone.js/dist/zone.js"></script>
+  <script src="/lib/npm/reflect-metadata/Reflect.js"></script>
+  <script src="/lib/npm/systemjs/dist/system.src.js"></script>
+  <script src="/systemjs.config.js"></script>
+  <script>
+    Promise.all([
+        System.import('app.file-upload.spec')
+    ])
+    .then(window.onload)
+    .catch(console.error.bind(console));
+  </script>
+</body>

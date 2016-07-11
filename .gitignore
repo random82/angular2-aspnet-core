@@ -245,3 +245,7 @@ ModelManifest.xml
 .fake/
 **/typings/**/*.*
 **/wwwroot/lib/**
+**/wwwroot/app/*.js
+**/wwwroot/app/*.js.map
+**/wwwroot/test/*.js.map
+**/wwwroot/test/*.js
